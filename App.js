@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
     <Home />
-    <Gretting />
+    <Gretting nome="Lucas" />
     </>
   );
 };

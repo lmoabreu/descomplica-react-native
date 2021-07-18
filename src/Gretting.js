@@ -5,10 +5,12 @@ import {
     StyleSheet
 } from 'react-native';
 
-const Gretting = () => {
+const Gretting = (props) => {
+    const { nome } = props;
+
     return (
         <View style={styles.container}>
-            <Text style={styles.texto}>Meu nome é Lucas</Text>
+            <Text style={styles.texto}>Meu nome é {nome}</Text>
             <Text style={styles.texto}>Pós-graduação é no Descomplica!</Text>
         </View>
     )
