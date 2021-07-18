@@ -5,10 +5,11 @@ import {
   View,
 } from 'react-native';
 
-const Home = () => {
+const Home = ({children}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.texto}>Olá, mundo!</Text>
+      {children}
     </View>
   );
 };

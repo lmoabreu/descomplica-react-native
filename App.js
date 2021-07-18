@@ -12,10 +12,9 @@ import Gretting from './src/Gretting';
 
 const App = () => {
   return (
-    <>
-    <Home />
-    <Gretting nome="Lucas" />
-    </>
+    <Home>
+      <Gretting nome="Lucas" />
+    </Home>
   );
 };
 
