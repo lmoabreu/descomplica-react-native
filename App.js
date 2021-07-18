@@ -7,14 +7,11 @@
  */
 
 import React from 'react';
-import Home from './src/Home';
-import Gretting from './src/Gretting';
+import Disciplinas from './src/Disciplinas';
 
 const App = () => {
   return (
-    <Home>
-      <Gretting nome="Lucas" />
-    </Home>
+    <Disciplinas />
   );
 };
 
