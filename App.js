@@ -8,10 +8,14 @@
 
 import React from 'react';
 import Home from './src/Home';
+import Gretting from './src/Gretting';
 
 const App = () => {
   return (
+    <>
     <Home />
+    <Gretting />
+    </>
   );
 };
 
