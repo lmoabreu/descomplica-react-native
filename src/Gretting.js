@@ -10,7 +10,9 @@ const Gretting = (props) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.texto}>Meu nome é {nome}</Text>
+            {nome.includes('Lucas') ?
+                <Text style={styles.texto}>Meu nome é {nome}</Text>
+            : null}
             <Text style={styles.texto}>Pós-graduação é no Descomplica!</Text>
         </View>
     )
